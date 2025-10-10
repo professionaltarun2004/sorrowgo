@@ -80,8 +80,8 @@ const ContactSection = () => {
                     <Mail className="w-6 h-6 text-primary mt-1" />
                     <div>
                       <div className="font-medium text-foreground">Email</div>
-                      <a href="mailto:hello@sorrowgo.com" className="text-primary hover:underline">
-                        hello@sorrowgo.com
+                      <a href="mailto:balivadatarun@gmail.com" className="text-primary hover:underline">
+                        balivadatarun@gmail.com
                       </a>
                     </div>
                   </div>
@@ -89,8 +89,8 @@ const ContactSection = () => {
                     <Phone className="w-6 h-6 text-primary mt-1" />
                     <div>
                       <div className="font-medium text-foreground">Phone</div>
-                      <a href="tel:+919876543210" className="text-primary hover:underline">
-                        +91 98765 43210
+                      <a href="tel:+919391616573" className="text-primary hover:underline">
+                        +91 9391616573
                       </a>
                     </div>
                   </div>

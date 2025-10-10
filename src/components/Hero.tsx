@@ -30,9 +30,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-foreground/70 max-w-2xl mx-auto font-light">
-            Because sometimes, you don't need advice.
-            <br />
-            You just need someone who listens.
+            Reimagining emotional wellness, one ride at a time
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">

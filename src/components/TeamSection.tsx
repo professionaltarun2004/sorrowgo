@@ -3,7 +3,7 @@ import { User } from "lucide-react";
 const TeamSection = () => {
   const team = [
     {
-      name: "Tarun Sandilya",
+      name: "Balivada Tarun Sandilya",
       role: "Founder & Visionary",
       bio: "A B.Tech student turned mental health advocate, Tarun envisioned SorrowGo to challenge social stigma and reimagine emotional healing through empathy-driven innovation."
     },
