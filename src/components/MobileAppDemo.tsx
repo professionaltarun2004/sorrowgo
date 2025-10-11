@@ -1,8 +1,8 @@
 const MobileAppDemo = () => {
   return (
-    <div className="sticky top-8 space-y-4 animate-fade-in">
+    <div className="space-y-4 animate-fade-in">
       {/* 3D Phone Frame Container */}
-      <div className="relative mx-auto max-w-[400px] animate-gentle-float">
+      <div className="relative mx-auto max-w-[380px] animate-gentle-float">
         {/* Phone Frame */}
         <div 
           className="relative bg-white rounded-[3rem] p-3 shadow-[0_10px_30px_rgba(0,0,0,0.25)] transition-all duration-500 hover:shadow-[0_15px_40px_rgba(0,0,0,0.3)] hover:scale-[1.02]"

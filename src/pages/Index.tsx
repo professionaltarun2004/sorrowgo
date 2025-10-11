@@ -23,12 +23,22 @@ const Index = () => {
       <Navigation />
       
       {/* Two-pane layout */}
-      <div className="lg:ml-64 flex">
-        {/* Main content area */}
-        <main className="flex-1 min-h-screen">
-          <div id="home">
+      <div className="lg:ml-64">
+        {/* Hero section with two-pane layout */}
+        <div className="flex flex-col xl:flex-row">
+          {/* Left pane - Hero content */}
+          <div className="flex-1" id="home">
             <Hero />
           </div>
+          
+          {/* Right pane - Video demo */}
+          <div className="xl:w-[45%] xl:min-h-screen flex items-center justify-center p-8 bg-gradient-to-br from-primary/5 to-transparent">
+            <MobileAppDemo />
+          </div>
+        </div>
+        
+        {/* Main content area */}
+        <main className="min-h-screen">
           <CauseSection />
           <div id="about">
             <AboutSection />
@@ -59,11 +69,6 @@ const Index = () => {
           </div>
           <Footer />
         </main>
-        
-        {/* Right pane - Interactive demo (hidden on mobile) */}
-        <aside className="hidden xl:block w-96 p-8">
-          <MobileAppDemo />
-        </aside>
       </div>
     </div>
   );
