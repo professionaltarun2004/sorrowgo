@@ -104,7 +104,8 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-gradient-to-br from-[#bde7e1] to-white text-foreground;
+    background: linear-gradient(120deg, #b3ecec 0%, #ffffff 100%);
+    @apply text-foreground;
     font-family: 'Poppins', sans-serif;
   }
 }
