@@ -21,11 +21,11 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed left-0 top-0 h-screen w-64 bg-gradient-to-b from-[hsl(var(--soft-sky))] to-[hsl(var(--warm-pink))] backdrop-blur-sm border-r border-border overflow-y-auto z-50 hidden lg:block">
+    <nav className="fixed left-0 top-0 h-screen w-64 glass border-r border-border overflow-y-auto z-50 hidden lg:block">
       <div className="p-6">
-        <div className="mb-8">
-          <h1 className="text-2xl font-bold text-foreground mb-1">SorrowGo</h1>
-          <p className="text-sm text-foreground/70">The Ride of the Unheard</p>
+        <div className="mb-8 animate-gentle-float">
+          <h1 className="text-2xl font-bold text-primary mb-1">SorrowGo</h1>
+          <p className="text-sm text-muted-foreground">The Ride of the Unheard</p>
         </div>
         
         <ul className="space-y-2">
@@ -35,10 +35,10 @@ const Navigation = () => {
               <li key={item.id}>
                 <button
                   onClick={() => scrollToSection(item.id)}
-                  className="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-foreground/80 hover:bg-white/40 hover:text-foreground transition-all duration-300 hover:scale-105 hover:shadow-[var(--shadow-soft)]"
+                  className="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-foreground/80 glass-hover font-medium"
                 >
                   <Icon className="w-5 h-5" />
-                  <span className="font-medium">{item.label}</span>
+                  <span>{item.label}</span>
                 </button>
               </li>
             );
