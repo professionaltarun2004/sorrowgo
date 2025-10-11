@@ -26,7 +26,7 @@ const MobileAppDemo = () => {
           }}
         >
           {/* Screen Background */}
-          <div className="bg-[#f0f9f9] rounded-[2.2rem] overflow-hidden">
+          <div className="bg-black rounded-[2.2rem] overflow-hidden">
             {/* Video Content - Original Dimensions */}
             <video
               autoPlay
