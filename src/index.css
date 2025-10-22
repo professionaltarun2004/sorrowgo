@@ -14,37 +14,37 @@ All colors MUST be HSL.
     --card-foreground: 200 15% 20%;
     --popover: 0 0% 100%;
     --popover-foreground: 200 15% 20%;
-    --primary: 184 35% 56%;
+    --primary: 173 52% 67%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 171 49% 90%;
-    --secondary-foreground: 200 15% 20%;
-    --muted: 171 49% 95%;
+    --secondary: 205 65% 90%;
+    --secondary-foreground: 173 52% 20%;
+    --muted: 205 65% 95%;
     --muted-foreground: 200 10% 45%;
-    --accent: 0 0% 100%;
-    --accent-foreground: 200 15% 20%;
+    --accent: 263 61% 69%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
     --border: 171 30% 88%;
     --input: 171 30% 88%;
-    --ring: 184 35% 56%;
+    --ring: 173 52% 67%;
     --radius: 1rem;
 
     /* Glassmorphism theme colors */
-    --soft-sky: 171 49% 90%;
-    --calm-blue: 184 35% 70%;
-    --healing-blue: 184 35% 56%;
-    --warm-pink: 171 49% 95%;
-    --gentle-rose: 171 30% 88%;
+    --soft-sky: 205 65% 90%;
+    --calm-blue: 173 52% 75%;
+    --healing-blue: 173 52% 67%;
+    --warm-pink: 205 65% 95%;
+    --gentle-rose: 205 50% 88%;
     
     /* Glassmorphism effects */
     --glass-bg: rgba(255, 255, 255, 0.75);
-    --glass-border: rgba(111, 177, 182, 0.18);
+    --glass-border: rgba(127, 214, 203, 0.18);
     --glass-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
     
     /* Shadows */
     --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
     --shadow-float: 0 8px 30px rgba(0, 0, 0, 0.12);
-    --shadow-glow: 0 0 30px rgba(111, 177, 182, 0.2);
+    --shadow-glow: 0 0 30px rgba(127, 214, 203, 0.2);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -104,7 +104,7 @@ All colors MUST be HSL.
   }
 
   body {
-    background: linear-gradient(120deg, #b3ecec 0%, #ffffff 100%);
+    background: radial-gradient(circle at 20% 20%, #d5f3f2, #f7e7ff 70%);
     @apply text-foreground;
     font-family: 'Poppins', sans-serif;
   }
@@ -141,8 +141,8 @@ All colors MUST be HSL.
 
 /* Pulse glow animation */
 @keyframes pulseGlow {
-  0%, 100% { box-shadow: 0 0 20px rgba(111, 177, 182, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(111, 177, 182, 0.6); }
+  0%, 100% { box-shadow: 0 0 20px rgba(127, 214, 203, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(127, 214, 203, 0.6); }
 }
 
 .animate-pulse-glow {

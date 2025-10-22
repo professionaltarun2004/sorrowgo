@@ -4,18 +4,23 @@ const HowItWorks = () => {
   const steps = [
     {
       icon: UserCircle,
-      title: "Choose Your Comforter",
-      description: "Pick from a list of empathetic listeners — trained volunteers or certified mental health partners who understand the art of listening."
-    },
-    {
-      icon: MapPin,
-      title: "Select Your Destination",
-      description: "Pick a peaceful ride — whether it's a drive through your city's calm outskirts or a visit to a serene park."
+      title: "Sign Up",
+      description: "Create your profile as a Rider or Comforter."
     },
     {
       icon: Heart,
-      title: "Talk, Heal, Breathe",
-      description: "Open up, vent out, or just stay silent with company. Your comforter's only goal is to help you feel lighter by the end of the journey."
+      title: "Get Matched",
+      description: "Our AI connects you with an empathetic listener nearby."
+    },
+    {
+      icon: MapPin,
+      title: "Take a Healing Ride",
+      description: "Talk, vent, and breathe in a calm, private space."
+    },
+    {
+      icon: Heart,
+      title: "Find Peace",
+      description: "Every conversation is a step toward inner peace."
     }
   ];
 
@@ -31,7 +36,7 @@ const HowItWorks = () => {
             {/* Connection line */}
             <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-[hsl(var(--calm-blue))] via-[hsl(var(--healing-blue))] to-[hsl(var(--primary))] transform -translate-y-1/2 z-0" />
             
-            <div className="grid md:grid-cols-3 gap-8 relative z-10">
+            <div className="grid md:grid-cols-4 gap-8 relative z-10">
               {steps.map((step, index) => {
                 const Icon = step.icon;
                 return (

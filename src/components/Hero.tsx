@@ -29,14 +29,11 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-            SorrowGo
-            <span className="block text-2xl md:text-3xl lg:text-4xl font-normal mt-4 text-muted-foreground">
-              The Ride of the Unheard
-            </span>
+            SorrowGo – Healing in Motion
           </h1>
 
           <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-xl font-light">
-            Because everyone deserves to be heard.
+            When words fail, rides heal. Connect with an empathetic listener near you.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-8">
@@ -54,7 +51,7 @@ const Hero = () => {
               onClick={() => scrollToSection("join-us")}
               className="glass-hover border-2 border-primary/30 text-foreground rounded-full px-8 py-6 text-lg font-medium"
             >
-              Join as a Comfort Rider
+              Become a Comfort Rider
             </Button>
           </div>
         </div>

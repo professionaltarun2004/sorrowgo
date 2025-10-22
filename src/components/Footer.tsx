@@ -13,25 +13,7 @@ const Footer = () => {
             
             <div className="flex gap-6">
               <a
-                href="https://twitter.com/sorrowgo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-primary/10 hover:bg-primary/20 rounded-full flex items-center justify-center transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5 text-primary" />
-              </a>
-              <a
-                href="https://instagram.com/sorrowgo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-primary/10 hover:bg-primary/20 rounded-full flex items-center justify-center transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-5 h-5 text-primary" />
-              </a>
-              <a
-                href="https://linkedin.com/company/sorrowgo"
+                href="https://linkedin.com/in/balivadatarun"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary/10 hover:bg-primary/20 rounded-full flex items-center justify-center transition-colors"
@@ -39,14 +21,20 @@ const Footer = () => {
               >
                 <Linkedin className="w-5 h-5 text-primary" />
               </a>
+              <a
+                href="https://instagram.com/sorrowgo.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-primary/10 hover:bg-primary/20 rounded-full flex items-center justify-center transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-5 h-5 text-primary" />
+              </a>
             </div>
             
             <div className="text-center">
               <p className="text-foreground/70">
-                © 2025 SorrowGo. The Ride of the Unheard.
-              </p>
-              <p className="text-sm text-foreground/60 mt-2">
-                Built with empathy and purpose.
+                © 2025 SorrowGo. Built with empathy by Balivada Tarun Sandilya.
               </p>
             </div>
           </div>

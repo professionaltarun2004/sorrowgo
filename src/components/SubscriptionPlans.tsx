@@ -5,36 +5,35 @@ import { Button } from "@/components/ui/button";
 const SubscriptionPlans = () => {
   const plans = [
     {
-      name: "Basic Ride",
-      price: "₹299",
-      period: "per ride",
+      name: "Peace Starter",
+      price: "₹199",
+      period: "month",
       benefits: [
-        "1 ride per month",
-        "Access to AI Comforter Demo",
-        "Mood Tracker access"
+        "2 rides/month",
+        "Listener matching",
+        "Confidential sessions"
       ],
       highlighted: false
     },
     {
-      name: "Premium Comfort",
-      price: "₹799",
-      period: "per month",
+      name: "Mind Balance",
+      price: "₹499",
+      period: "month",
       benefits: [
-        "Unlimited rides",
-        "Priority comforters",
-        "Access to Stories of Hope",
-        "Monthly virtual support session"
+        "5 rides/month",
+        "Priority listeners",
+        "Location flexibility"
       ],
       highlighted: true
     },
     {
-      name: "Therapy Partner",
-      price: "Custom",
-      period: "pricing",
+      name: "Serenity Pro",
+      price: "₹999",
+      period: "month",
       benefits: [
-        "Pay at partner therapist hospitals",
-        "Corporate wellness tie-ups",
-        "Dedicated comforters"
+        "Unlimited rides",
+        "24x7 comfort support",
+        "Free partner therapy add-ons"
       ],
       highlighted: false
     }
@@ -45,10 +44,10 @@ const SubscriptionPlans = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-foreground mb-4">
-            SorrowGo Subscription & Payment Options
+            Subscription Plans
           </h2>
           <p className="text-center text-foreground/70 mb-16 max-w-2xl mx-auto">
-            Choose your comfort journey. Pay per ride, subscribe for unlimited support, or connect directly with therapy partners.
+            Choose the plan that fits your healing journey
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -92,7 +91,7 @@ const SubscriptionPlans = () => {
                   }`}
                   variant={plan.highlighted ? "default" : "outline"}
                 >
-                  {plan.name === "Therapy Partner" ? "Contact Us" : "Get Started"}
+                  Get Started
                 </Button>
               </Card>
             ))}
