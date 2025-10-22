@@ -60,33 +60,33 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 215 25% 15%;
-    --foreground: 203 50% 96%;
+    --background: 200 20% 10%;
+    --foreground: 180 30% 95%;
 
-    --card: 215 25% 18%;
-    --card-foreground: 203 50% 96%;
+    --card: 200 20% 12%;
+    --card-foreground: 180 30% 95%;
 
-    --popover: 215 25% 18%;
-    --popover-foreground: 203 50% 96%;
+    --popover: 200 20% 12%;
+    --popover-foreground: 180 30% 95%;
 
-    --primary: 210 45% 65%;
+    --primary: 173 52% 67%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 215 25% 25%;
-    --secondary-foreground: 203 50% 96%;
+    --secondary: 200 20% 20%;
+    --secondary-foreground: 180 30% 95%;
 
-    --muted: 215 25% 25%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 200 20% 20%;
+    --muted-foreground: 200 15% 65%;
 
-    --accent: 215 25% 22%;
-    --accent-foreground: 203 50% 96%;
+    --accent: 263 61% 69%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 215 25% 25%;
-    --input: 215 25% 25%;
-    --ring: 210 45% 65%;
+    --border: 200 20% 20%;
+    --input: 200 20% 20%;
+    --ring: 173 52% 67%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -95,6 +95,23 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Glassmorphism theme colors */
+    --soft-sky: 200 20% 20%;
+    --calm-blue: 173 52% 75%;
+    --healing-blue: 173 52% 67%;
+    --warm-pink: 200 20% 15%;
+    --gentle-rose: 200 20% 25%;
+    
+    /* Glassmorphism effects */
+    --glass-bg: rgba(20, 25, 30, 0.75);
+    --glass-border: rgba(127, 214, 203, 0.18);
+    --glass-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.3);
+    --shadow-float: 0 8px 30px rgba(0, 0, 0, 0.4);
+    --shadow-glow: 0 0 30px rgba(127, 214, 203, 0.3);
   }
 }
 
@@ -107,6 +124,11 @@ All colors MUST be HSL.
     background: radial-gradient(circle at 20% 20%, #d5f3f2, #f7e7ff 70%);
     @apply text-foreground;
     font-family: 'Poppins', sans-serif;
+    transition: background 0.3s ease;
+  }
+
+  .dark body {
+    background: radial-gradient(circle at 10% 10%, #000000, #0d1b1e 80%);
   }
 }
 

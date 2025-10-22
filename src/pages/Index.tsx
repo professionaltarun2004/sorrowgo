@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import MobileAppDemo from "@/components/MobileAppDemo";
 import Hero from "@/components/Hero";
+import EmpathyAI from "@/components/EmpathyAI";
 import CauseSection from "@/components/CauseSection";
 import AboutSection from "@/components/AboutSection";
 import HowItWorks from "@/components/HowItWorks";
@@ -70,6 +71,9 @@ const Index = () => {
           <Footer />
         </main>
       </div>
+
+      {/* AI Chatbot */}
+      <EmpathyAI />
     </div>
   );
 };
